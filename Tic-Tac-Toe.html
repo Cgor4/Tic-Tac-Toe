@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Tic Tac Toe</title>
+
+	<script src='../Tic-Tac-Toe/Tic-Tac-Toe.js'></script>
+	<link rel="stylesheet" href='../Tic-Tac-Toe/Tic-Tac-Toe.css'>
+
+</head>
+
+<body>
+
+	<div class='cellContainer'>
+
+		<!--First Cell Row-->
+		<div class='firstRow'>
+			<!--Top row cells-->
+			<div id='firstCell' onclick='upperLeftClicked()'>
+
+				<h1 id='firstText'></h1>
+
+			</div>
+
+			<div id='secondCell' onclick='upperEdgeClicked()'>
+
+				<h1 id='secondText'></h1>
+
+			</div>
+
+			<div id='thirdCell' onclick='upperRightClicked()'>
+
+				<h1 id='thirdText'></h1>
+
+			</div>
+
+		</div>
+		<!--Second Cell Row-->
+		<div class='secondRow'>
+			<!--Middle row cells-->
+			<div id='fourthCell' onclick='leftEdgeClicked()'>
+			
+				<h1 id='fourthText'></h1>
+
+			</div>
+
+			<div id='fifthCell' onclick='middleClicked()'>
+			
+				<h1 id='fifthText'></h1>
+
+			</div>
+
+
+			<div id='sixthCell' onclick='rightEdgeClicked()'>
+			
+                <h1 id='sixthText'></h1>
+			
+			</div>
+
+		</div>
+
+		<!--Third Row-->
+		<div class='thirdRow'>
+			<!---Bottom row cells-->
+			<div id='seventhCell' onclick='lowerLeftClicked()'>
+			
+				<h1 id='seventhText'></h1>
+
+			</div>
+
+			<div id='eighthCell' onclick='lowerEdgeClicked()'>
+			
+				<h1 id='eighthText'></h1>
+			
+			</div>
+
+			<div id='ninethCell' onclick='lowerRightClicked()'>
+			
+				<h1 id='ninethText'></h1>
+
+			</div>
+
+
+		</div>
+
+		<h1 id='victoryStatus'></h1>
+
+		<div class='buttonHolder'>
+
+			<button id='newGame' onclick="document.location.reload()">New Game</button>
+
+            <button id='ai' onclick='ai()'>Play Computer</button>
+
+		</div>
+               
+	</div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,160 @@
+.cellContainer { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.firstRow { 
+    display: flex;
+    flex-direction: row;
+    align-content: center;                
+}
+
+.secondRow { 
+    display: flex;
+    flex-direction: row;
+    align-content: center; 
+}
+
+.thirdRow { 
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+
+}
+
+
+#firstCell { 
+    width: 200px; 
+    height: 200px;
+    background-color: floralwhite;
+    border-width: 4px;
+    border-style: solid;
+    border-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace;
+    font-size: 50px;
+
+
+}
+
+#secondCell { 
+    width: 200px; 
+    height: 200px;
+    background-color: floralwhite;
+    border-width: 4px;
+    border-style: solid;
+    border-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace;
+    font-size: 50px;
+}
+
+#thirdCell { 
+    width: 200px; 
+    height: 200px;
+    background-color: floralwhite;
+    border-width: 4px;
+    border-style: solid;
+    border-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace;
+    font-size: 50px;
+}
+
+#fourthCell { 
+    width: 200px; 
+    height: 200px;
+    background-color: floralwhite;
+    border-width: 4px;
+    border-style: solid;
+    border-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace;
+    font-size: 50px;
+}
+
+#fifthCell { 
+    width: 200px; 
+    height: 200px;
+    background-color: floralwhite;
+    border-width: 4px;
+    border-style: solid;
+    border-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace;
+    font-size: 50px;
+} 
+
+#sixthCell { 
+    width: 200px; 
+    height: 200px;
+    background-color: floralwhite;
+    border-width: 4px;
+    border-style: solid;
+    border-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace;
+    font-size: 50px;
+}
+
+#seventhCell { 
+    width: 200px; 
+    height: 200px;
+    background-color: floralwhite;
+    border-width: 4px;
+    border-style: solid;
+    border-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace;
+    font-size: 50px;
+}
+
+#eighthCell { 
+    width: 200px; 
+    height: 200px;
+    background-color: floralwhite;
+    border-width: 4px;
+    border-style: solid;
+    border-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace;
+    font-size: 50px;
+}
+
+#ninethCell { 
+    width: 200px; 
+    height: 200px;
+    background-color: floralwhite;
+    border-width: 4px;
+    border-style: solid;
+    border-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace;
+    font-size: 50px;
+}
+
+.buttonHolder { 
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
